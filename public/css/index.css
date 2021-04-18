@@ -1,0 +1,106 @@
+.upperPart {
+    background-color: #1860be;
+}
+.icon
+{
+    background: linear-gradient(45deg, red, blue);
+    border-radius: 25px;
+    box-shadow: 0 8px 5px rgba(0,0,0, 0.1);
+    margin: 9px;
+}
+
+.headerText {
+    font-size: 10vw;
+    
+    
+
+}
+
+.grid {
+    display: grid;
+
+
+    grid-template-columns: repeat(1, 1.5fr);
+    
+    grid-gap: 2vw;
+}
+
+.bot {
+    position: relative;
+    bottom: 0px;
+}
+
+.pointer {
+
+    
+    cursor: pointer;
+}
+
+.fix {
+    
+    bottom: 1.5vw;
+    position: fixed;
+    right: 1.5vw;
+    
+}
+
+.log {
+    position: relative;
+
+    
+    top: 19vh;
+}
+
+.area {
+    height: 49vh;
+
+
+    resize: none;
+}
+
+
+
+
+@media (min-width: 576px) {
+
+    
+    .grid {
+
+
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media (min-width: 768px) {
+
+
+    .grid {
+
+
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    .form {
+
+
+        width: 49%;
+
+    }
+
+    .jumtex {
+
+        font-size: 6.5vw;
+    }
+}
+
+
+@media (min-width: 1000px) {
+    .grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+
+@media (min-width: 1159px) {}
